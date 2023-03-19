@@ -1,0 +1,15 @@
+﻿.screen {
+    width: 985px;
+    height: 985px; /* 505px if 32 led matrix */
+    background: #3c3c3c;
+    position: relative;
+}
+
+.led {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
