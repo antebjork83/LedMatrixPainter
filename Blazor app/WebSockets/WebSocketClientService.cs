@@ -23,7 +23,7 @@ namespace LedMatrixPainter.WebApp.WebSockets
 
         public void InitializeClient()
         {
-            var url = new Uri("ws://192.168.197.188:81");
+            var url = new Uri("ws://192.168.197.188:81"); // Change to whatever ip and port your esp32 has.
 
             using (Client = new WebsocketClient(url, WebsocketClientFactory()))
             {
