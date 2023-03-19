@@ -113,12 +113,6 @@ IPAddress InitServer()
 
 void webSocketEvent(uint8_t num, WStype_t type, uint8_t * payload, size_t length)
 {
-  int xPos;
-  int yPos;
-  uint8_t r;
-  uint8_t g;
-  uint8_t b;
-
   switch(type)
   {
     case WStype_DISCONNECTED:
