@@ -9,3 +9,8 @@ A simple Blazor web app
 
 ![led_matrix](https://user-images.githubusercontent.com/53916475/226210446-06747ced-1ae4-44cd-a4b6-991503c04f54.jpg)
 64x64 Led Matrix
+
+# Hardware
+AZDelivery ESP32 NodeMCU
+
+Waveshare RGB LED Matrix panel P3-64x64
