@@ -50,7 +50,7 @@
             if (HexColor == _initialPaintColor)
             {
                 HexColor = _baseColor;
-                LedRgb = Color.GenerateRgb(_initialPaintColor);
+                LedRgb = Color.GenerateRgb(_baseColor);
             }
             else
             {
