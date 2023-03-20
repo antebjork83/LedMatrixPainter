@@ -1,15 +1,18 @@
-﻿.screen {
-    width: 985px;
-    height: 985px; /* 505px if 32 led matrix */
+.screen {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: auto;
+    align-content: start;
     background: #3c3c3c;
-    position: relative;
+    width: 1044px;
+    padding: 10px;
 }
 
 .led {
-    width: 10px;
-    height: 10px;
-    display: inline-block;
-    position: absolute;
-    margin: 0;
-    padding: 0;
+    flex: 0 0 auto;
+    margin: 2px;
+    width: 12px;
+    height: 12px;
 }
