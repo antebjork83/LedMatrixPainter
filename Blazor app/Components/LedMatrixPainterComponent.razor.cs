@@ -1,4 +1,4 @@
-﻿using LedMatrixPainter.WebApp.Data;
+using LedMatrixPainter.WebApp.Data;
 using LedMatrixPainter.WebApp.WebSockets;
 using Microsoft.AspNetCore.Components;
 
@@ -66,7 +66,7 @@ namespace LedMatrixPainter.WebApp.Components
             }
         }
 
-        private void SetPaintMode()
+        private void SetEditMode()
         {
             if (_editMode)
             {
