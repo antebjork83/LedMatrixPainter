@@ -14,3 +14,16 @@ A simple Blazor web app
 AZDelivery ESP32 NodeMCU
 
 Waveshare RGB LED Matrix panel P3-64x64
+
+# Get it working
+1) In the Blazor app change the url "ws://192.168.197:80" to your esp 32 IP and port.
+
+WebSocketaclientService.cs
+
+var url = new Uri("ws://192.168.197.188:81");
+
+2) In LedMatrix_websockets.ino change to your ssid and password.
+
+char ssid[] = "[your ssid]";
+
+char pass[] = "[your password]";
